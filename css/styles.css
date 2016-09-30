@@ -56,13 +56,13 @@ li a {
 
 li a:hover:not(.active) {
     background-color: #111;
-    color: red;
+    color: white ;
     text-decoration: none;
 }
 
 .active {
-    background-color: red ;
-    color: white ;
+    background-color: white ;
+    color: black ;
  	text-decoration: none;
 
 }
@@ -182,4 +182,67 @@ footer {
 	margin-top: 30px;
 }
 
+.jumbotronPR {
+  display: flex;
+  align-items: left;
+  text-align: left;
+  background-image: url('http://cdn.collider.com/wp-content/uploads/iron-man-3-armor2.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
 
+.jumbotronPR h2 {
+  font-size: 120px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+  font-family: Impact;
+  border: 2px
+  border-color: black ;
+  float: left;
+}
+
+.jumbotronPR h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+
+.mainPR {
+  background-color: #152342;
+  padding-left: 30px;
+  padding-right: 30px;
+  min-width: 75%;
+  color: white;
+  margin-top: -30px;
+  padding-bottom: 50px;
+
+  
+}
+
+.mainPR h1 {
+	font-size: 60px;
+	font-family: impact;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.mainPR p {
+	font-size: 20px;
+	text-align: center;
+	
+}
+
+.mainPR h3 {
+	margin-top: 30px;
+	text-align: center;
+	text-decoration: bold;
+	font-size: 30px;
+}
+
+.mainPR img {
+    display: block;
+    margin: 0 auto;
+}
