@@ -1,9 +1,9 @@
 html, body {
-  font-family: sans-serif;
+  font-family: Arial, sans-serif;
   margin: 0;
   width: 100%;
   height: 100%;
-  background-color: lightgrey;
+  background-color: darkgrey;
 }
 
 .jumbotron {
@@ -38,6 +38,7 @@ ul {
     overflow: hidden;
     background-color: black ;
     margin-top: -5%
+
     
 }
 
@@ -69,4 +70,49 @@ li a:hover:not(.active) {
 .active:hover {
 	text-decoration: none;
 	color: white;
+}
+
+.main {
+  background-color: #3f0000;
+  padding-left: 30px;
+  padding-right: 30px;
+  min-width: 75%;
+  color: white;
+  margin-top: -30px;
+  padding-bottom: 30px
+  
+}
+
+.main h1 {
+	padding-top: 20px;
+	font-size: 60px;
+	text-align: center;
+	font-family: impact;
+}
+
+.main p {
+	font-size: 20px;
+	text-align: center;
+}
+
+#spider {
+    float: right;
+    margin-right: 10px;
+    clear:both;
+    padding-left: 20px;
+}
+
+.main p {
+    margin-left: 0px;
+    overflow:auto;
+    display:block;
+}
+
+#before {
+	padding-top: 30px
+
+}
+
+#after {
+	margin-top: 60px;
 }
