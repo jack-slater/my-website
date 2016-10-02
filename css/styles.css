@@ -245,4 +245,29 @@ footer {
 .mainPR img {
     display: block;
     margin: 0 auto;
+    
+}
+
+#iron {
+	opacity: 0.3;
+}
+
+#iron:hover {
+	opacity: 1;
+}
+
+#wolv {
+	opacity: 0.3;
+}
+
+#wolv:hover {
+	opacity: 1;
+}
+
+#bat {
+	opacity: 0.3;
+}
+
+#bat:hover {
+	opacity: 1;
 }
